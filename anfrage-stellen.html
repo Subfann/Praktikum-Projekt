@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="page-topic"
+      content="Medien, Technik, Multimedia, Informatik, Computer, Webdesign, Programmierung, Fotografie, Videografie, IT, Reparatur, Datenbanken, Netzwerke"
+    />
+    <meta
+      name="keywords"
+      content="Medien, Technik, Multimedia, Informatik, Computer, Webdesign, Programmierung, Fotografie, Videografie, IT, Reparatur, Datenbanken, Netzwerke"
+    />
+    <meta
+      name="description"
+      content="Wir sind ein junges Unternehmen und bieten Ihnen verschiedene Dienstleistungen in den Bereichen IT, Technik und Multimedia."
+    />
+
+    <title>IT Technik & Multimedia Solutions Halime</title>
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./Assets/CSS/anfrage-stellen.css" />
+
+    <!-- 
+    - remix icons (darkmode)
+  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./Assets/Fotos/Anfrage Stellen/Fotos/logo.png"
+            class="logo-img"
+            alt=""
+          />
+        </a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html#home" class="navbar-link" data-nav-link
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#service" class="navbar-link" data-nav-link
+                >Services</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#about" class="navbar-link" data-nav-link
+                >Über Uns</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#team" class="navbar-link" data-nav-link
+                >Team</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#project" class="navbar-link" data-nav-link
+                >Preise</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#package" class="navbar-link" data-nav-link
+                >Pakete</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#contact" class="navbar-link" data-nav-link
+                >Kontakt</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#maps" class="navbar-link" data-nav-link
+                >Location</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#"
+                onclick="location.reload(true); return false;"
+                class="btn btn-primary"
+                >Anfrage stellen</a
+              >
+            </li>
+
+            <li>
+              <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </li>
+          </ul>
+          <!--
+        <div class="nav_dark">
+         
+          <span class="change-theme-name">Dark Mode</span>
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+ -->
+        </nav>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="Toggle menu"
+          data-nav-toggler
+        >
+          <ion-icon name="menu-outline" class="open"></ion-icon>
+          <ion-icon name="close-outline" class="close"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <!--       <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">IT Technik & Multimedia Solutions</p>
+
+            <h1 class="h1 hero-title">Digitalisierung & Nachhaltigkeit</h1>
+
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporthem incididunt ut labore et
+              dolore magna
+              aliqua.
+            </p>
+
+            <a href="#" class="btn btn-primary hero-btn">Anfrage stellen</a>
+
+
+            <ul class="socialHero-list">
+
+              <li>
+                <a href="https://www.facebook.com/itmsh02826" class="socialHero-link" target="_blank">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://twitter.com/ITMSolutionsHal" class="socialHero-link" target="_blank">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://www.instagram.com/itmsolutionshalime/" class="socialHero-link" target="_blank">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://de.linkedin.com/company/itm-solutions-halime" class="socialHero-link" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://www.youtube.com/channel/UCCbBR0-DLxLlS0CGmVNWeIg" class="socialHero-link" target="_blank">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+  
+            </ul>
+                                                         
+          </div>
+          
+          <div class="graf">
+            <img src="./assets/images/3D Bild3.png" width="720" height="673" alt="hero banner" class="w-100">
+          </div>
+
+        </div>
+      </section> -->
+
+        <!-- 
+        - #ANFRAGE 
+      -->
+
+        <section class="section service" id="anfrage-stellen-outer-container">
+          <div class="anfrage-stellen-container">
+            <h2 class="h2 section-title">Anfrage stellen</h2>
+
+            <p class="section-text">
+              Fordern Sie hier mit wenigen Schritten ein persönliches Angebot
+              von uns an.
+
+              <!--<iframe name="dummyframe" id="dummyframe" ></iframe>-->
+
+              <!--action="https://submit-form.com/x9poGQrW" method="GET"-->
+            </p>
+
+            <form
+              id="anfrage-form"
+              class="contact-form hide"
+              method="POST"
+            >
+            <input type="hidden" name="access_key" value="deca5c8c-bb18-4c5a-b7d6-d81744f06cec">
+
+              <textarea
+                name="Firma"
+                aria-label="Firma"
+                placeholder="Firma"
+                class="input-field2"
+              ></textarea>
+
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="Vorname"
+                  aria-label="Vorname"
+                  placeholder="Vorname*"
+                  required
+                  class="input-field"
+                />
+
+                <input
+                  type="text"
+                  name="Nachname"
+                  aria-label="Nachname"
+                  placeholder="Nachname*"
+                  required
+                  class="input-field"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  name="Mail"
+                  aria-label="email"
+                  placeholder="Email Adresse*"
+                  required
+                  class="input-field"
+                />
+
+                <input
+                  type="number"
+                  name="Telefonnummer"
+                  aria-label="phone"
+                  placeholder="Telefonnummer"
+                  class="input-field"
+                />
+              </div>
+
+              <textarea
+                name="Betreff"
+                aria-label="Betreff"
+                placeholder="Betreff*"
+                required
+                class="input-field2"
+                readonly
+              >
+ANFRAGE</textarea
+              >
+
+              <textarea name="path" required class="hide"></textarea>
+
+              <!--<p>Haben Sie für Ihren Antrag schon eine Skizze angefertigt, sodass wir eine deutliche Vorstellung bekommen können? Dann laden Sie diese hier hoch.</p>
+                
+                
+                <input type="hidden" name="file" role="uploadcare-uploader" data-public-key="304bd599778a548e7173">
+                -->
+
+              <!--<label class="btn btn-primary inline-block custom-file-button">
+                  <input type="file" name="file">
+                  Datei hochladen
+                </label>
+
+                <p id="filename"></p>-->
+
+              <input type="file" name="file" />
+
+              <textarea
+                name="Anmerkungen"
+                aria-label="message"
+                placeholder="Weitere Anmerkungen..."
+                class="input-field"
+              ></textarea>
+
+              <p class="status"></p>
+
+              <div class="checkbox-wrapper">
+                <input
+                  type="checkbox"
+                  name="terms_and_policy"
+                  id="terms"
+                  required
+                  class="checkbox"
+                />
+
+                <label for="terms" class="label">
+                  <a href="#" class="label-link">AGB</a> und
+                  <a href="#" class="label-link">Datenschutz</a> akzeptieren
+                </label>
+              </div>
+
+              <input
+                type="button"
+                class="btn btn-primary inline-block back-button"
+                value="&lt; Zurück"
+              />
+              <button type="submit" class="btn btn-primary inline-block">
+                Abschicken
+              </button>
+            </form>
+
+            <div class="container hide" id="file-upload-container">
+              <p>
+                Haben Sie für Ihren Antrag schon eine Skizze angefertigt, sodass
+                wir eine deutliche Vorstellung bekommen können? Dann laden Sie
+                diese hier hoch.
+              </p>
+
+              <label class="btn btn-primary inline-block custom-file-button">
+                <input type="file" name="file" />
+                Datei hochladen
+              </label>
+
+              <p>max. 2MB</p>
+
+              <br />
+
+              <!--<button class="btn btn-primary hide remove-file">Datei entfernen</button>-->
+
+              <div id="filename-outer" class="hide">
+                <div id="filename"></div>
+
+                <button
+                  id="clear-file-button"
+                  class="material-symbols-outlined"
+                >
+                  delete
+                </button>
+              </div>
+
+              <br />
+
+              <button class="btn btn-primary back-button">&lt; Zurück</button>
+              <button class="btn btn-primary next-button">&gt; Weiter</button>
+            </div>
+          </div>
+
+          <!--<div id="ende-container" class="container hide">
+            <div id="question">
+              Vielen Dank für Ihre Anfrage, wir melden uns in Kürze bei Ihnen!
+            </div>
+
+            <div id="answer-buttons" class="btn-grid">
+              <div class="card-icon hide">
+                <ion-icon name="thumbs-up-outline" class="send-img"></ion-icon>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="contact-end hide">
+            <div class="text">
+              Bitte warten Sie. Ihre Kontaktaufnahme wird verarbeitet.
+            </div>
+
+            <div>
+              <button class="back-button inline-block btn btn-primary">
+                Zurück
+              </button>
+
+              <div class="icon hide">
+                <ion-icon name="thumbs-up-outline" class="send-img"></ion-icon>
+              </div>
+            </div>
+          </div>
+
+          <!--<button id="back-button" class="btn btn-primary">Zurück</button>-->
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="section footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="index.html#home" class="logo">
+              <img
+                src="./Assets/Fotos/Anfrage Stellen/Fotos/logo2.png"
+                class="logo-img-footer"
+                alt=""
+              />
+            </a>
+
+            <p class="section-text sec-footer">
+              Bei uns finden Sie individuelle Lösungen zu IT, Technik und
+              Multimedia-Fragen. Wir sind ein junges Unternehmen, und passen uns
+              flexibel an die sich stetig ändernde Marktsituation an, um für Sie
+              bestmögliche Ergebnisse zu erzielen.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a
+                  href="https://www.facebook.com/itmsh02826"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://twitter.com/ITMSolutionsHal"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/itmsolutionshalime/"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://de.linkedin.com/company/itm-solutions-halime"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCCbBR0-DLxLlS0CGmVNWeIg"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+
+            <li>
+              <a href="index.html#about" class="footer-link">Über Uns</a>
+            </li>
+
+            <li>
+              <a href="kontakt.html#" class="footer-link">Kontakt</a>
+            </li>
+
+            <li>
+              <a href="index.html#service" class="footer-link"
+                >Unsere Services</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#team" class="footer-link">Unser Team</a>
+            </li>
+
+            <li>
+              <a href="index.html#project" class="footer-link">Preise</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Öffnungszeiten</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mo: 09:00 - 16:00</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Di: &ensp;09:00 - 16:00</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mi: &nbsp;09:00 - 16:00</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Do: &nbsp;09:00 - 16:00</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Fr: &ensp;09:00 - 13:00</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Kontakt</p>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+49 3581 6861000" class="item-link"
+                >+49 3581 6861000</a
+              >
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:kontakt@itm-solutions-halime.de" class="item-link"
+                >kontakt@itm-&nbsp;solutions-&nbsp;halime.de</a
+              >
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+
+              <address class="item-link address">
+                Elisabethstraße 22<br />
+                02826 Görlitz
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2022 All Rights Reserved by
+            <a href="#" class="copyright-link">ITM-Solutions Halime</a>.
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="agb.html#" class="footer-bottom-link">AGB</a>
+            </li>
+
+            <li>
+              <a href="datenschutz.html#" class="footer-bottom-link"
+                >Datenschutz</a
+              >
+            </li>
+
+            <li>
+              <a href="impressum.html#" class="footer-bottom-link">Impressum</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      aria-label="back to top"
+      data-back-top-btn
+      class="back-top-btn"
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <!--<script src="./assets/js/script.js"></script>-->
+    <script src="./Assets/JS/anfrage-stellen.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
