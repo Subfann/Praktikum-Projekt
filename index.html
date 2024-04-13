@@ -2244,6 +2244,51 @@
   -->
     <script src="Assets/JS/index.js" defer></script>
 
+    <script>
+      var i = 0; // Start Point
+var images = []; // Images Array
+var time = 2000; // Time Between Switch
+
+// Image List
+images[0] = "./Assets/Fotos/Index/Section/Über uns/1.png";
+images[1] = "./Assets/Fotos/Index/Section/Über uns/2.png";
+images[2] = "./Assets/Fotos/Index/Section/Über uns/3.png";
+images[3] = "./Assets/Fotos/Index/Section/Über uns/4.png";
+images[4] = "./Assets/Fotos/Index/Section/Über uns/5.png";
+images[5] = "./Assets/Fotos/Index/Section/Über uns/6.png";
+images[6] = "./Assets/Fotos/Index/Section/Über uns/7.png";
+images[7] = "./Assets/Fotos/Index/Section/Über uns/8.png";
+images[8] = "./Assets/Fotos/Index/Section/Über uns/9.png";
+images[9] = "./Assets/Fotos/Index/Section/Über uns/10.png";
+images[10] = "./Assets/Fotos/Index/Section/Über uns/11.png";
+images[11] = "./Assets/Fotos/Index/Section/Über uns/12.png";
+images[12] = "./Assets/Fotos/Index/Section/Über uns/13.png";
+images[13] = "./Assets/Fotos/Index/Section/Über uns/14.png";
+images[14] = "./Assets/Fotos/Index/Section/Über uns/15.png";
+images[15] = "./Assets/Fotos/Index/Section/Über uns/16.png";
+images[16] = "./Assets/Fotos/Index/Section/Über uns/17.png";
+
+// Change Image
+function changeImg() {
+  document.slide.src = images[i];
+
+  // Check If Index Is Under Max
+  if (i < images.length - 1) {
+    // Add 1 to Index
+    i++;
+  } else {
+    // Reset Back To O
+    i = 0;
+  }
+
+  // Run function every x seconds
+  setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload = changeImg;
+    </script>
+
     <!-- 
     - swiper js link
   -->
